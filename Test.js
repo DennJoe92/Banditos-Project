@@ -12,3 +12,17 @@ console.log(`Hello ${firstName} ${lastName}`);
 let handiCap = "20"
 
 console.log (`Your Handicap is ${handiCap}`);
+
+//variable using two existing
+let fullName = `${firstName} ${lastName}`;
+console.log (fullName);
+
+//mutliple line variable
+let bio = `Line 1\nLine 2\n`;
+console.log (bio);
+
+let length = handiCap.length;
+console.log(`Quote Length: ${length}`))
+
+
+
