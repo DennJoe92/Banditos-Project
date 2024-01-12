@@ -8,4 +8,20 @@ signUpButton.addEventListener('click', () => {
 
 signInButton.addEventListener('click', () => {
 	container.classList.remove("right-panel-active");
+
 });     
+
+// Login.js
+
+document.getElementById('signIn').addEventListener('click', function () {
+	// Perform login logic here
+	alert('Login functionality will be implemented here.');
+  });
+
+  // Login.js
+
+document.getElementById('signUp').addEventListener('click', function () {
+	// Perform signup logic here
+	alert('Signup functionality will be implemented here.');
+  });
+  
