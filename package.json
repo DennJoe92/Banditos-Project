@@ -1,17 +1,21 @@
 {
-  "name": "banditos-project",
-  "version": "1.0.0",
-  "description": "Project to create a web app to track the Bandito's golf societies scoring and league table",
-  "main": "Test.js",
+  "name": "express-banditos",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node express-banditos/express-banditos/bin/www",
+    "devstart": "nodemon express-banditos/express-banditos/bin/www",
+    "serverstart": "DEBUG=express-banditos:* npm run devstart"
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "^4.18.2",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "pug": "^3.0.2"
   },
   "devDependencies": {
-    "eslint": "^8.56.0"
+    "nodemon": "^3.0.3"
   }
 }
